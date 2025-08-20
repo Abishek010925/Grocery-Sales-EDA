@@ -4,10 +4,11 @@ This project analyzes Supermart Grocery Sales data using Python.
 The notebook covers data preprocessing, exploratory data analysis (EDA), sales trend visualization, and predictive modeling to understand key sales drivers and evaluate forecasting models.
 
 🔑 Key Objectives:
-Clean and preprocess the sales dataset.
-Explore sales patterns across regions, cities, categories, and subcategories.
-Identify sales trends over months, years, and weekdays.
-Build and evaluate predictive models (Linear Regression, Random Forest) for sales forecasting.
+
+-Clean and preprocess the sales dataset.
+-Explore sales patterns across regions, cities, categories, and subcategories.
+-Identify sales trends over months, years, and weekdays.
+-Build and evaluate predictive models (Linear Regression, Random Forest) for sales forecasting.
 
 📊 Exploratory Data Analysis (EDA)
 
@@ -19,12 +20,13 @@ Key visualizations include:
   By month, year, weekday
   Combined year-month trends
 
-🔬 Feature Engineering
+🔬 Feature Engineering:
+
   Extracted day, month, year from order date.
   Created Quarter and Months_Since_Start features.
   One-hot encoded categorical variables (Region, City, Category, Sub Category).
 
-🤖 Machine Learning Models
+🤖 Machine Learning Models:
 1. Linear Regression
 Split data into train/test (80-20).
 Results:
